@@ -127,11 +127,21 @@ span.decoration {
     width: 300px;
     height: 25px;
 }
+#asunto:focus {
+    transition: all linear 0.2s;
+    border: 2px solid var(--gold);
+    outline: none;
+}
 #mensaje {
     border: 2px solid var(--font_color);
     width: 300px;
     height: 135px;
     resize: none;
+}
+#mensaje:focus {
+    transition: all linear 0.2s;
+    border: 2px solid var(--gold);
+    outline: none;
 }
 #submit {
     border: 2px solid var(--font_color);
@@ -140,6 +150,14 @@ span.decoration {
     margin-left: 108px;
     color: var(--font_color);
     letter-spacing: 2px;
+}
+
+#submit:hover {
+    color: #fff;
+    transition: all linear 0.3s;
+    cursor: pointer;
+    background-color: var(--gold);
+    border: 2px solid var(--gold);
 }
 .info-section {
     display: flex;

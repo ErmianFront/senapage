@@ -39,6 +39,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 2px;
+}
+
 #main-text {
     display: grid;
     place-content: center;
@@ -50,9 +56,16 @@ nav a {
     > button {
         margin: auto;
         padding: 10px 0;
+        letter-spacing: 2px;
         color: white;
         background-color: transparent;
         border: solid white 2px;
         width: 200px;
+    }
+    > button:hover {
+        background-color: #fff;
+        color: var(--font_color);
+        transition: all linear 0.3s;
+        cursor: pointer;
     }
 }
