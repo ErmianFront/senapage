@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main-content.css" />
+    <title>Peluqueria</title>
+  </head>
+  <body>
+    <span id="discount">50% de descuento</span>
+
+    <header id="main-header">
+      <nav>
+        <ul>
+          <a href=""><li>Inicio</li></a>
+          <a href=""><li>Servicio</li></a>
+          <a href=""><li>Ubicación</li></a>
+          <a href=""><li>Contacto</li></a>
+          <a href=""><li>Sobre nosotros</li></a>
+        </ul>
+      </nav>
+
+      <div id="main-text">
+        <h1>NOMBRE DE LA PELUQUERÍA</h1>
+        <button>Reservar Cita</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="services">
+        <h2 class="subtitle">SERVICIOS</h2>
+        <p>
+          Ofrecemos variedad de servicios para tu
+          <span class="decoration">cuidado</span> capilar, somos
+          <span class="decoration">especialistas</span> en salud capilar podrás
+          encontrar
+        </p>
+      </section>
+
+      <section>
+        <div id="services-cards">
+          <div class="card">
+            <header>
+              <img src="assets/pelo.png" alt="Foto de pelo" />
+            </header>
+            <section>
+              <h2>Terapias Capilares</h2>
+              <ul>
+                <li>Anti Caída</li>
+                <li>Fortalecimiento</li>
+                <li>Hidratación</li>
+                <li>Nutrición</li>
+                <li>Repolarización</li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="card">
+            <header>
+              <img src="assets/cpu.png" alt="Foto de tecnología" />
+            </header>
+            <section>
+              <h2>Alisados con Nanotecnología</h2>
+              <ul>
+                <li>Alisado Saludable</li>
+                <li>Alisado Progresivo</li>
+                <li>Alisado Ácido Hiáluronico</li>
+                <li>Alisado Botunilico</li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="card">
+            <header>
+              <img src="assets/bote-pintura.png" alt="Bote de pintura" />
+            </header>
+            <section>
+              <h2>Tintes Planos</h2>
+              <ul>
+                <li>Corte de Cabello</li>
+                <li>Deshorquille</li>
+                <li>Corte de Puntas</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+
+        <h2 class="custom-h2">ENTRE OTROS!</h2>
+      </section>
+
+      <section id="location">
+        <h2 class="subtitle">UBICACIÓN</h2>
+        <p>PUEDES ENCONTRARNOS EN LA SIGUIENTE UBICACIÓN</p>
+        <div id="image-container">
+          <img src="assets/mapa.png" alt="Mapa de ejemplo" />
+        </div>
+      </section>
+
+      <section id="contact-form">
+        <h2 class="subtitle">CONTACTANOS</h2>
+        <div id="contact-form-container">
+          <div id="form-container">
+            <form action="">
+              <label for="asunto">ASUNTO</label>
+              <input type="text" id="asunto" name="asunto" />
+              <label for="mensaje">MENSAJE</label>
+              <textarea name="mensaje" id="mensaje"></textarea>
+              <input type="submit" value="Enviar Mensaje" id="submit" />
+            </form>
+          </div>
+
+          <div id="info-container">
+            <div class="info-section">
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z"
+                  fill="#C3934B"
+                />
+              </svg>
+              <p>3000000000</p>
+            </div>
+
+            <div class="info-section">
+              <svg
+                id="mail-svg"
+                width="28px"
+                height="28px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                  stroke="#eec68a"
+                  stroke-width="2"
+                  fill="#C3934B"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p>ejemplo</p>
+            </div>
+
+            <div class="info-section">
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="-4 0 32 32"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+              >
+                <title>location</title>
+                <desc>Created with Sketch Beta.</desc>
+                <defs></defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  sketch:type="MSPage"
+                >
+                  <g
+                    id="Icon-Set-Filled"
+                    sketch:type="MSLayerGroup"
+                    transform="translate(-106.000000, -413.000000)"
+                    fill="#C3934B"
+                  >
+                    <path
+                      d="M118,422 C116.343,422 115,423.343 115,425 C115,426.657 116.343,428 118,428 C119.657,428 121,426.657 121,425 C121,423.343 119.657,422 118,422 L118,422 Z M118,430 C115.239,430 113,427.762 113,425 C113,422.238 115.239,420 118,420 C120.761,420 123,422.238 123,425 C123,427.762 120.761,430 118,430 L118,430 Z M118,413 C111.373,413 106,418.373 106,425 C106,430.018 116.005,445.011 118,445 C119.964,445.011 130,429.95 130,425 C130,418.373 124.627,413 118,413 L118,413 Z"
+                      id="location"
+                      sketch:type="MSShapeGroup"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <p>CRA 40 - #40-50</p>
+            </div>
+
+            <div class="info-section">
+              <svg
+                fill="#C3934B"
+                height="28px"
+                width="28px"
+                version="1.1"
+                id="Icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 24 24"
+                enable-background="new 0 0 24 24"
+                xml:space="preserve"
+              >
+                <g id="WA_Logo">
+                  <g>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M20.5,3.5C18.25,1.25,15.2,0,12,0C5.41,0,0,5.41,0,12c0,2.11,0.65,4.11,1.7,5.92
+			L0,24l6.33-1.55C8.08,23.41,10,24,12,24c6.59,0,12-5.41,12-12C24,8.81,22.76,5.76,20.5,3.5z M12,22c-1.78,0-3.48-0.59-5.01-1.49
+			l-0.36-0.22l-3.76,0.99l1-3.67l-0.24-0.38C2.64,15.65,2,13.88,2,12C2,6.52,6.52,2,12,2c2.65,0,5.2,1.05,7.08,2.93S22,9.35,22,12
+			C22,17.48,17.47,22,12,22z M17.5,14.45c-0.3-0.15-1.77-0.87-2.04-0.97c-0.27-0.1-0.47-0.15-0.67,0.15
+			c-0.2,0.3-0.77,0.97-0.95,1.17c-0.17,0.2-0.35,0.22-0.65,0.07c-0.3-0.15-1.26-0.46-2.4-1.48c-0.89-0.79-1.49-1.77-1.66-2.07
+			c-0.17-0.3-0.02-0.46,0.13-0.61c0.13-0.13,0.3-0.35,0.45-0.52s0.2-0.3,0.3-0.5c0.1-0.2,0.05-0.37-0.02-0.52
+			C9.91,9.02,9.31,7.55,9.06,6.95c-0.24-0.58-0.49-0.5-0.67-0.51C8.22,6.43,8.02,6.43,7.82,6.43S7.3,6.51,7.02,6.8
+			C6.75,7.1,5.98,7.83,5.98,9.3c0,1.47,1.07,2.89,1.22,3.09c0.15,0.2,2.11,3.22,5.1,4.51c0.71,0.31,1.27,0.49,1.7,0.63
+			c0.72,0.23,1.37,0.2,1.88,0.12c0.57-0.09,1.77-0.72,2.02-1.42c0.25-0.7,0.25-1.3,0.17-1.42C18,14.68,17.8,14.6,17.5,14.45z"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <p>30000000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>NOMBRE DE LA PÁGINA</p>
+    </footer>
+  </body>
+</html>
