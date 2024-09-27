@@ -1,0 +1,139 @@
+body {
+    --bs-body-font-family:"Manrope", sans-serif;
+}
+.banner-image {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../assets/background-image.jpg");
+    background-size: cover;
+}
+.login-button {
+    color: #fff;
+}
+.login-button:hover {
+    transition: all ease 0.3s;
+    background-color: #fff;
+    color: rgb(19, 19, 19);
+    >svg {
+        fill: rgb(19, 19, 19);
+    }
+}
+.bg-nav-dark {
+    background-color: rgb(19, 19, 19);
+}
+.special-text {
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.btn-reserv {
+    background-color: transparent;
+    border: solid 2px white;
+    color: #fff;
+}
+.btn-reserv:hover {
+    transition: all ease 0.3s;
+    background-color: #fff;
+    color: black;
+}
+.text-section {
+    font-size: 20px;
+}
+.card-subtitles {
+    font-weight: 400;
+}
+.location-section {
+    height: 750px;
+    background-color: #0f0f0f;
+}
+.img-map {
+    width: 75%;
+    border-radius: 10px;
+}
+.form-input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    border:#b4b4b4 1px solid;
+    text-indent: 15px;
+}
+.form-contact:focus {
+    outline-color: #0f0f0f;
+}
+.btn-submit {
+    background-color: rgb(19, 19, 19);
+    border: solid 2px rgb(19, 19, 19);
+    color: #fff;
+    width: 200px;
+    height: 40px;
+}
+.btn-submit:hover {
+    transition: all ease 0.3s;
+    background-color: #fff;
+    color: rgb(19, 19, 19);
+}
+.footer-custom {
+    height: 60px;
+    background-color: rgb(19, 19, 19);
+}
+.login-border {
+    border: 1px rgb(19, 19, 19) solid;
+}
+.dashboard-body-color {
+    background-color: #e6e6e6;
+}
+.text-dashboard-color {
+    color: rgb(19, 19, 19)
+}
+.active-dashboard {
+    background-color: rgb(19, 19, 19) !important;
+    > i {
+        color: #fff !important;
+    }
+    > span {
+        color: #fff !important;
+    }
+}
+.login-dashboard {
+    color: #fff;
+    padding: 2px 2px;
+}
+
+.login-dashboard:hover {
+    transition: all ease 0.3s;
+    background-color: #fff;
+    > p {
+        color: rgb(19, 19, 19);
+    }
+}
+
+.hover-dashboard-link:hover {
+    transition: all linear 0.3s;
+    background-color: rgb(19, 19, 19);
+    > i {
+        color: #fff;
+    }
+    > span {
+        color: #fff;
+    }
+}
+.home-page-li {
+    margin-top: 275px;
+}
+.dashboard-container {
+    height: 85%;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      background-color:rgb(19, 19, 19);
+    }
+    .location-section {
+        height: 500px;
+        background-color: #0f0f0f;
+    }
+    .img-map {
+        width: 80%;
+        border-radius: 0px;
+    }
+  }
